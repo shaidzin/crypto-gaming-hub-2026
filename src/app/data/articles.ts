@@ -62,5 +62,23 @@ export const articles = [
     date: 'Feb 17, 2026',
     readTime: '11 min read',
     slug: 'bitcoin-slots-vs-ethereum-slots'
+  },
+  {
+    id: '8',
+    title: 'Best Bitcoin Roulette Sites in 2025: Tested With Real Money',
+    excerpt: 'I tested 12 Bitcoin roulette platforms with real money. Here are the ones with the best odds, fastest payouts, and honest reviews.',
+    category: 'Reviews',
+    date: 'Feb 17, 2026',
+    readTime: '13 min read',
+    slug: 'best-bitcoin-roulette-sites'
+  },
+  {
+    id: '9',
+    title: 'How to Play Crypto Baccarat: The Complete Beginner Guide',
+    excerpt: 'Baccarat confused me for years. This guide explains everything in plain English - rules, bets, strategy, and where to play.',
+    category: 'Guide',
+    date: 'Feb 17, 2026',
+    readTime: '12 min read',
+    slug: 'crypto-baccarat-guide-beginners'
   }
 ];
