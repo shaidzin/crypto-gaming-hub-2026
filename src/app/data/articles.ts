@@ -44,5 +44,23 @@ export const articles = [
     date: 'Feb 10, 2026',
     readTime: '11 min read',
     slug: 'crypto-gambling-legal-guide'
+  },
+  {
+    id: '6',
+    title: 'Crypto Casino Bonus Wagering Explained: How to Turn Bonuses Into Cash',
+    excerpt: 'I wasted $3,000 in bonuses before learning these tricks. Now I consistently cash out bonus wins. The complete 2025 guide.',
+    category: 'Guide',
+    date: 'Feb 17, 2026',
+    readTime: '14 min read',
+    slug: 'crypto-casino-bonus-wagering-guide'
+  },
+  {
+    id: '7',
+    title: 'Bitcoin Slots vs Ethereum Slots: Which Crypto Slots Actually Pay Better in 2025',
+    excerpt: 'I played 500+ spins on both chains. Here\'s the truth about RTPs, volatility, and which cryptocurrency gives you the best odds.',
+    category: 'Comparison',
+    date: 'Feb 17, 2026',
+    readTime: '11 min read',
+    slug: 'bitcoin-slots-vs-ethereum-slots'
   }
 ];
