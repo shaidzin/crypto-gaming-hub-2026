@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://affiliate-content.vercel.app/sitemap.xml
+Sitemap: https://affiliate-content.vercel.app/sitemap-[0-9]+.xml
+
+# Crawl-delay (optional, be nice)
+Crawl-delay: 1
