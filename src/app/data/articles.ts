@@ -242,5 +242,23 @@ export const articles = [
     date: 'Feb 24, 2026',
     readTime: '7 min read',
     slug: 'esports-crypto-betting'
+  },
+  {
+    id: '28',
+    title: 'Crypto Casinos Risk Reward',
+    excerpt: 'Understanding the risks and rewards of crypto gambling.',
+    category: 'Guide',
+    date: 'Feb 25, 2026',
+    readTime: '6 min read',
+    slug: 'crypto-casinos-risk-reward'
+  },
+  {
+    id: '29',
+    title: 'Best Crypto Betting Sites 2026',
+    excerpt: 'Top platforms for crypto betting this year.',
+    category: 'Reviews',
+    date: 'Feb 25, 2026',
+    readTime: '8 min read',
+    slug: 'best-crypto-betting-sites-2026'
   }
 ];
