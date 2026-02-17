@@ -143,5 +143,32 @@ export const articles = [
     date: 'Feb 19, 2026',
     readTime: '6 min read',
     slug: 'crypto-slots-vs-regular-slots'
+  },
+  {
+    id: '17',
+    title: 'VPN for Crypto Gambling: Complete Guide',
+    excerpt: 'How to use VPN for crypto gambling. Best VPNs, setup guides, and legal considerations.',
+    category: 'Guide',
+    date: 'Feb 19, 2026',
+    readTime: '8 min read',
+    slug: 'vpn-crypto-gambling'
+  },
+  {
+    id: '18',
+    title: 'Best Crypto Poker Sites in 2025',
+    excerpt: 'Top crypto poker rooms. Compare rake, bonuses, and player traffic.',
+    category: 'Reviews',
+    date: 'Feb 19, 2026',
+    readTime: '9 min read',
+    slug: 'best-crypto-poker-sites'
+  },
+  {
+    id: '19',
+    title: 'Mobile Crypto Gambling Apps',
+    excerpt: 'Best mobile apps for crypto gambling. Bet on sports and play casino games from your phone.',
+    category: 'Reviews',
+    date: 'Feb 20, 2026',
+    readTime: '7 min read',
+    slug: 'mobile-crypto-gambling-apps'
   }
 ];
