@@ -1,5 +1,7 @@
 // Article page template
-import { articles } from '../data/articles';
+import { articles } from '../../data/articles';
+import { getArticleContent } from '../../data/article-contents';
+import { getAffiliateLinks } from '../../data/affiliates';
 
 export async function generateStaticParams() {
   return articles.map((article) => ({
@@ -10,6 +12,8 @@ export async function generateStaticParams() {
 export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const article = articles.find((a) => a.slug === slug);
+  const content = getArticleContent(slug);
+  const affiliates = getAffiliateLinks();
 
   if (!article) {
     return (
@@ -21,6 +25,10 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     );
   }
 
+  const articleContent = content?.content || `
+    <p>This is a placeholder for the full article content.</p>
+  `;
+
   return (
     <div className="article-page">
       <header className="article-header">
@@ -29,36 +37,42 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       </header>
       
       <article className="article-content">
-        <h1>{article.title}</h1>
+        <h1>{content?.title || article.title}</h1>
         <div className="article-meta">
-          <span>{article.date}</span>
+          <span>{content?.date || article.date}</span>
           <span>•</span>
-          <span>{article.readTime}</span>
+          <span>{content?.readTime || article.readTime}</span>
         </div>
         
         <div className="article-body">
           <p className="lead">{article.excerpt}</p>
           
-          <p>
-            This is a placeholder for the full article content. In production, 
-            this would be fetched from a CMS or markdown file. The AI agent 
-            would generate comprehensive, SEO-optimized content for each article.
-          </p>
-          
-          <h2>Key Points</h2>
-          <ul>
-            <li>Comprehensive analysis of the topic</li>
-            <li>Expert insights and recommendations</li>
-            <li>Up-to-date information for 2025</li>
-            <li>Actionable strategies and tips</li>
-          </ul>
-          
-          <h2>Conclusion</h2>
-          <p>
-            Stay tuned for more in-depth analysis. Our AI-powered content 
-            generation system creates fresh articles daily, ensuring you 
-            always have the latest information on crypto gaming and betting.
-          </p>
+          {content?.content ? (
+            <div dangerouslySetInnerHTML={{ __html: articleContent.split('\n').map(p => p.trim()).filter(p => p).map(p => {
+              if (p.startsWith('## ')) return `<h2>${p.slice(3)}</h2>`;
+              if (p.startsWith('### ')) return `<h3>${p.slice(4)}</h3>`;
+              if (p.startsWith('- ')) return `<li>${p.slice(2)}</li>`;
+              if (p.match(/^\d+\./)) return `<li>${p.replace(/^\d+\.\s*/, '')}</li>`;
+              return `<p>${p}</p>`;
+            }).join('') }} />
+          ) : (
+            <p>Content coming soon...</p>
+          )}
+        </div>
+        
+        {/* Affiliate CTA */}
+        <div className="affiliate-cta">
+          <h3>🎰 Ready to Play?</h3>
+          <p>Join these trusted crypto betting platforms:</p>
+          <div className="affiliate-buttons">
+            {affiliates.slice(0, 3).map(aff => (
+              <a key={aff.name} href={aff.url} target="_blank" rel="noopener noreferrer" className="affiliate-button">
+                <span className="affiliate-name">{aff.name}</span>
+                <span className="affiliate-bonus">{aff.bonus}</span>
+              </a>
+            ))}
+          </div>
+          <p className="affiliate-disclaimer">We may earn a commission when you sign up through our links.</p>
         </div>
         
         <div className="article-cta">
