@@ -107,5 +107,41 @@ export const articles = [
     date: 'Feb 6, 2026',
     readTime: '9 min read',
     slug: 'best-wallet-crypto-betting'
+  },
+  {
+    id: '13',
+    title: 'Crypto Casino Payment Methods Explained',
+    excerpt: 'A complete guide to payment methods at crypto casinos. From Bitcoin to Tether, learn about deposits and withdrawals.',
+    category: 'Guide',
+    date: 'Feb 18, 2026',
+    readTime: '8 min read',
+    slug: 'crypto-casino-payment-methods'
+  },
+  {
+    id: '14',
+    title: 'Best Bitcoin Roulette Sites in 2025',
+    excerpt: 'Top crypto casinos for playing roulette. Compare variants, bonuses, and live dealer options.',
+    category: 'Reviews',
+    date: 'Feb 18, 2026',
+    readTime: '9 min read',
+    slug: 'best-bitcoin-roulette-sites'
+  },
+  {
+    id: '15',
+    title: 'How to Play Crypto Baccarat',
+    excerpt: 'Learn to play baccarat with cryptocurrency. Simple rules and high limits make it perfect for crypto bettors.',
+    category: 'Guide',
+    date: 'Feb 18, 2026',
+    readTime: '7 min read',
+    slug: 'how-to-play-crypto-baccarat'
+  },
+  {
+    id: '16',
+    title: 'Crypto Slots vs Regular Online Slots',
+    excerpt: 'What\'s the difference between crypto slots and regular online slots? We compare payouts, bonuses, and fairness.',
+    category: 'Comparison',
+    date: 'Feb 19, 2026',
+    readTime: '6 min read',
+    slug: 'crypto-slots-vs-regular-slots'
   }
 ];
