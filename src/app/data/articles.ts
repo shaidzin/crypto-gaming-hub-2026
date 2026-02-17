@@ -134,5 +134,50 @@ export const articles = [
     date: 'Feb 20, 2026',
     readTime: '8 min read',
     slug: 'crypto-blackjack-guide'
+  },
+  {
+    id: '16',
+    title: 'Best Crypto Casinos 2026',
+    excerpt: 'Comprehensive reviews of top crypto casino platforms.',
+    category: 'Reviews',
+    date: 'Feb 21, 2026',
+    readTime: '10 min read',
+    slug: 'best-crypto-casinos-2026'
+  },
+  {
+    id: '17',
+    title: 'Best Altcoins for Gambling',
+    excerpt: 'Top cryptocurrencies beyond Bitcoin for online gambling.',
+    category: 'Guide',
+    date: 'Feb 21, 2026',
+    readTime: '7 min read',
+    slug: 'best-altcoins-for-gambling'
+  },
+  {
+    id: '18',
+    title: 'Crypto Casino vs Traditional Casino',
+    excerpt: 'Key differences between crypto and traditional online casinos.',
+    category: 'Comparison',
+    date: 'Feb 21, 2026',
+    readTime: '6 min read',
+    slug: 'crypto-vs-traditional-casino'
+  },
+  {
+    id: '19',
+    title: 'Crypto Casino Bonuses Guide',
+    excerpt: 'Understanding casino bonuses and promotions.',
+    category: 'Guide',
+    date: 'Feb 22, 2026',
+    readTime: '8 min read',
+    slug: 'crypto-casino-bonuses-guide'
+  },
+  {
+    id: '20',
+    title: 'Crypto Gambling Bankroll Management',
+    excerpt: 'How to manage your betting bankroll with crypto.',
+    category: 'Strategy',
+    date: 'Feb 22, 2026',
+    readTime: '7 min read',
+    slug: 'crypto-gambling-bankroll'
   }
 ];
