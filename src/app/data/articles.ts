@@ -206,5 +206,41 @@ export const articles = [
     date: 'Feb 23, 2026',
     readTime: '8 min read',
     slug: 'crypto-gambling-tax-guide'
+  },
+  {
+    id: '24',
+    title: 'Crypto Sports Betting Guide',
+    excerpt: 'Complete guide to betting on sports with crypto.',
+    category: 'Guide',
+    date: 'Feb 23, 2026',
+    readTime: '9 min read',
+    slug: 'crypto-sports-betting-guide'
+  },
+  {
+    id: '25',
+    title: 'Bitcoin Betting vs Traditional Betting',
+    excerpt: 'Comparing crypto and fiat sports betting.',
+    category: 'Comparison',
+    date: 'Feb 24, 2026',
+    readTime: '6 min read',
+    slug: 'bitcoin-vs-traditional-betting'
+  },
+  {
+    id: '26',
+    title: 'Live Betting with Cryptocurrency',
+    excerpt: 'How to bet live with crypto.',
+    category: 'Guide',
+    date: 'Feb 24, 2026',
+    readTime: '7 min read',
+    slug: 'live-crypto-betting'
+  },
+  {
+    id: '27',
+    title: 'Esports Betting with Crypto',
+    excerpt: 'Bet on esports using cryptocurrency.',
+    category: 'Reviews',
+    date: 'Feb 24, 2026',
+    readTime: '7 min read',
+    slug: 'esports-crypto-betting'
   }
 ];

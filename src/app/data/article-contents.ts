@@ -564,6 +564,107 @@ Know your tax obligations.
 - Use crypto tax software
 - Report accurately
     `
+  },
+  'crypto-sports-betting-guide': {
+    title: 'Crypto Sports Betting Guide',
+    category: 'Guide',
+    date: 'Feb 23, 2026',
+    readTime: '9 min read',
+    excerpt: 'Complete guide to betting on sports with crypto.',
+    keywords: ['crypto sports betting', 'bitcoin betting'],
+    content: `
+Bet on sports using cryptocurrency.
+
+## Getting Started
+1. Choose crypto sportsbook
+2. Deposit BTC/USDT
+3. Find your market
+4. Place your bet
+
+## Types of Bets
+- Moneyline
+- Spread
+- Over/Under
+- Parlays
+- Live betting
+
+## Tips
+- Research teams
+- Set budget
+- Shop for odds
+    `
+  },
+  'bitcoin-vs-traditional-betting': {
+    title: 'Bitcoin Betting vs Traditional Betting',
+    category: 'Comparison',
+    date: 'Feb 24, 2026',
+    readTime: '6 min read',
+    excerpt: 'Comparing crypto and fiat sports betting.',
+    keywords: ['bitcoin betting', 'fiat betting comparison'],
+    content: `
+Crypto vs traditional sports betting.
+
+## Bitcoin Betting
+- Anonymity
+- Fast deposits
+- Lower fees
+- Better odds
+
+## Traditional Betting
+- Established brands
+- More markets
+- Fiat currency
+- ID required
+
+## Which is Better?
+Crypto offers privacy and speed. Traditional offers familiarity.
+    `
+  },
+  'live-crypto-betting': {
+    title: 'Live Betting with Cryptocurrency',
+    category: 'Guide',
+    date: 'Feb 24, 2026',
+    readTime: '7 min read',
+    excerpt: 'How to bet live with crypto.',
+    keywords: ['live betting', 'in-play betting crypto'],
+    content: `
+Bet in real-time with crypto.
+
+## How Live Betting Works
+- Odds change during game
+- Bet while match is ongoing
+- Quick decisions needed
+
+## Tips
+- Watch stream if available
+- Know the sport
+- Set live betting limits
+- Act quickly
+    `
+  },
+  'esports-crypto-betting': {
+    title: 'Esports Betting with Crypto',
+    category: 'Reviews',
+    date: 'Feb 24, 2026',
+    readTime: '7 min read',
+    excerpt: 'Bet on esports using cryptocurrency.',
+    keywords: ['esports betting', 'crypto esports'],
+    content: `
+Growing esports betting market.
+
+## Popular Esports
+- League of Legends
+- CS:GO
+- Dota 2
+- Valorant
+- Fortnite
+
+## Benefits
+- Fast odds
+- Many markets
+- Crypto bonuses
+- Anonymity
+    `
   }
 };
 
