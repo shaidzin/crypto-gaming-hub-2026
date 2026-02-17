@@ -48,13 +48,32 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           <p className="lead">{article.excerpt}</p>
           
           {content?.content ? (
-            <div dangerouslySetInnerHTML={{ __html: articleContent.split('\n').map(p => p.trim()).filter(p => p).map(p => {
-              if (p.startsWith('## ')) return `<h2>${p.slice(3)}</h2>`;
-              if (p.startsWith('### ')) return `<h3>${p.slice(4)}</h3>`;
-              if (p.startsWith('- ')) return `<li>${p.slice(2)}</li>`;
-              if (p.match(/^\d+\./)) return `<li>${p.replace(/^\d+\.\s*/, '')}</li>`;
-              return `<p>${p}</p>`;
-            }).join('') }} />
+            <div dangerouslySetInnerHTML={{ __html: 
+              articleContent
+                // Headers
+                .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+                .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+                .replace(/^# (.+)$/gm, '<h1>$1</h1>')
+                // Bold and italic
+                .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+                .replace(/\*([^*]+)\*/g, '<em>$1</em>')
+                // Lists
+                .replace(/^- (.+)$/gm, '<li>$1</li>')
+                .replace(/^\d+\. (.+)$/gm, '<li>$1</li>')
+                // Horizontal rule
+                .replace(/^---$/gm, '<hr>')
+                // Blockquotes
+                .replace(/^> (.+)$/gm, '<blockquote>$1</blockquote>')
+                // Split into paragraphs
+                .split('\n')
+                .map(line => line.trim())
+                .filter(line => line.length > 0)
+                .map(line => {
+                  if (line.startsWith('<h') || line.startsWith('<li') || line.startsWith('<hr') || line.startsWith('<block')) return line;
+                  return `<p>${line}</p>`;
+                })
+                .join('')
+            }} />
           ) : (
             <p>Content coming soon...</p>
           )}
