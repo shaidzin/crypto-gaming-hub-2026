@@ -3,7 +3,7 @@ export const articles = [
   {
     id: '1',
     title: 'Best Crypto Dice Games in 2025',
-    excerpt: 'A comprehensive guide to the top crypto dice platforms for 2025. Compare odds, bonuses, and security features across the leading platforms.',
+    excerpt: 'A comprehensive guide to the top crypto dice platforms for 2025.',
     category: 'Reviews',
     date: 'Feb 17, 2026',
     readTime: '8 min read',
@@ -12,7 +12,7 @@ export const articles = [
   {
     id: '2', 
     title: 'USDT Betting: Complete Beginner\'s Guide',
-    excerpt: 'Learn how to bet with USDT safely. From wallet setup to choosing the right platform, we cover everything you need to get started.',
+    excerpt: 'Learn how to bet with USDT safely.',
     category: 'Guide',
     date: 'Feb 16, 2026',
     readTime: '12 min read',
@@ -21,7 +21,7 @@ export const articles = [
   {
     id: '3',
     title: 'Crypto Ludo vs Traditional Ludo',
-    excerpt: 'What makes Crypto Ludo different? We compare gameplay, earning potential, user experience, and provably fair mechanics.',
+    excerpt: 'What makes Crypto Ludo different? We compare gameplay.',
     category: 'Comparison',
     date: 'Feb 15, 2026',
     readTime: '6 min read',
@@ -29,146 +29,65 @@ export const articles = [
   },
   {
     id: '4',
-    title: 'Maximizing Wins: Advanced Betting Strategies',
-    excerpt: 'Professional betting strategies that can improve your odds. Risk management, bankroll tips, and proven systems for long-term success.',
-    category: 'Strategy',
-    date: 'Feb 14, 2026',
-    readTime: '15 min read',
-    slug: 'advanced-betting-strategies'
-  },
-  {
-    id: '5',
-    title: 'TRON vs Ethereum for Gaming: Which is Better?',
-    excerpt: 'Comparing TRON and Ethereum for crypto gaming. Analysis of fees, speed, ecosystem, and which blockchain is best for gaming dApps.',
-    category: 'Tech',
-    date: 'Feb 13, 2026',
-    readTime: '10 min read',
-    slug: 'tron-vs-ethereum-gaming'
-  },
-  {
-    id: '6',
-    title: 'Top 10 USDT Casinos Reviewed',
-    excerpt: 'Our expert picks for the best USDT casinos. We analyze bonuses, game selection, security, and withdrawal speeds.',
-    category: 'Reviews',
-    date: 'Feb 12, 2026',
-    readTime: '14 min read',
-    slug: 'top-usdt-casinos-reviewed'
-  },
-  {
-    id: '7',
     title: 'Best Crypto Betting Sites in 2025',
-    excerpt: 'The most trusted crypto sportsbooks and betting platforms. Compare odds, live betting, and cryptocurrency options.',
+    excerpt: 'The most trusted crypto sportsbooks and betting platforms.',
     category: 'Reviews',
     date: 'Feb 11, 2026',
     readTime: '11 min read',
     slug: 'best-crypto-betting-sites'
   },
   {
-    id: '8',
+    id: '5',
     title: 'Crypto Gambling Legal Guide',
-    excerpt: 'Understanding the legal landscape of crypto gambling. Which countries allow it? What licenses to look for?',
+    excerpt: 'Understanding the legal landscape of crypto gambling.',
     category: 'Guide',
     date: 'Feb 10, 2026',
     readTime: '9 min read',
     slug: 'crypto-gambling-legal-guide'
   },
   {
-    id: '9',
+    id: '6',
     title: 'Bitcoin vs USDT Betting: Pros and Cons',
-    excerpt: 'Should you bet with BTC or USDT? We break down the advantages of each cryptocurrency for online betting.',
+    excerpt: 'Should you bet with BTC or USDT? We break down the advantages.',
     category: 'Comparison',
     date: 'Feb 9, 2026',
     readTime: '7 min read',
     slug: 'bitcoin-vs-usdt-betting'
   },
   {
-    id: '10',
-    title: 'Provably Fair Gaming Explained',
-    excerpt: 'How provably fair algorithms work and why they matter. Verify game outcomes yourself with blockchain technology.',
-    category: 'Tech',
-    date: 'Feb 8, 2026',
-    readTime: '8 min read',
-    slug: 'provably-fair-explained'
-  },
-  {
-    id: '11',
-    title: 'Crypto Casino Bonuses: Maximizing Your Value',
-    excerpt: 'Understanding welcome bonuses, reload offers, and VIP programs. How to read the fine print and actually profit.',
-    category: 'Strategy',
-    date: 'Feb 7, 2026',
-    readTime: '10 min read',
-    slug: 'crypto-casino-bonuses-guide'
-  },
-  {
-    id: '12',
-    title: 'Best Wallet for Crypto Betting',
-    excerpt: 'The top cryptocurrency wallets for betting. Security features, ease of use, and which ones support betting sites.',
-    category: 'Guide',
-    date: 'Feb 6, 2026',
-    readTime: '9 min read',
-    slug: 'best-wallet-crypto-betting'
-  },
-  {
-    id: '13',
+    id: '7',
     title: 'Crypto Casino Payment Methods Explained',
-    excerpt: 'A complete guide to payment methods at crypto casinos. From Bitcoin to Tether, learn about deposits and withdrawals.',
+    excerpt: 'A complete guide to payment methods at crypto casinos.',
     category: 'Guide',
     date: 'Feb 18, 2026',
     readTime: '8 min read',
     slug: 'crypto-casino-payment-methods'
   },
   {
-    id: '14',
+    id: '8',
     title: 'Best Bitcoin Roulette Sites in 2025',
-    excerpt: 'Top crypto casinos for playing roulette. Compare variants, bonuses, and live dealer options.',
+    excerpt: 'Top crypto casinos for playing roulette.',
     category: 'Reviews',
     date: 'Feb 18, 2026',
     readTime: '9 min read',
     slug: 'best-bitcoin-roulette-sites'
   },
   {
-    id: '15',
+    id: '9',
     title: 'How to Play Crypto Baccarat',
-    excerpt: 'Learn to play baccarat with cryptocurrency. Simple rules and high limits make it perfect for crypto bettors.',
+    excerpt: 'Learn to play baccarat with cryptocurrency.',
     category: 'Guide',
     date: 'Feb 18, 2026',
     readTime: '7 min read',
     slug: 'how-to-play-crypto-baccarat'
   },
   {
-    id: '16',
+    id: '10',
     title: 'Crypto Slots vs Regular Online Slots',
-    excerpt: 'What\'s the difference between crypto slots and regular online slots? We compare payouts, bonuses, and fairness.',
+    excerpt: 'Difference between crypto slots and regular slots.',
     category: 'Comparison',
     date: 'Feb 19, 2026',
     readTime: '6 min read',
     slug: 'crypto-slots-vs-regular-slots'
-  },
-  {
-    id: '17',
-    title: 'VPN for Crypto Gambling: Complete Guide',
-    excerpt: 'How to use VPN for crypto gambling. Best VPNs, setup guides, and legal considerations.',
-    category: 'Guide',
-    date: 'Feb 19, 2026',
-    readTime: '8 min read',
-    slug: 'vpn-crypto-gambling'
-  },
-  {
-    id: '18',
-    title: 'Best Crypto Poker Sites in 2025',
-    excerpt: 'Top crypto poker rooms. Compare rake, bonuses, and player traffic.',
-    category: 'Reviews',
-    date: 'Feb 19, 2026',
-    readTime: '9 min read',
-    slug: 'best-crypto-poker-sites'
-  },
-  {
-    id: '19',
-    title: 'Mobile Crypto Gambling Apps',
-    excerpt: 'Best mobile apps for crypto gambling. Bet on sports and play casino games from your phone.',
-    category: 'Reviews',
-    date: 'Feb 20, 2026',
-    readTime: '7 min read',
-    slug: 'mobile-crypto-gambling-apps'
   }
 ];
