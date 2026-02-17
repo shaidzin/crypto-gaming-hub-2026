@@ -260,5 +260,14 @@ export const articles = [
     date: 'Feb 25, 2026',
     readTime: '8 min read',
     slug: 'best-crypto-betting-sites-2026'
+  },
+  {
+    id: '30',
+    title: 'Bitcoin Gambling Basics',
+    excerpt: 'Learn the fundamentals of gambling with Bitcoin.',
+    category: 'Guide',
+    date: 'Feb 25, 2026',
+    readTime: '6 min read',
+    slug: 'bitcoin-gambling-basics'
   }
 ];
