@@ -496,6 +496,74 @@ Proper bankroll management is crucial for long-term success.
 ## Conclusion
 Discipline beats luck. Manage your bankroll wisely.
     `
+  },
+  'spot-scam-crypto-sites': {
+    title: 'How to Spot Scam Crypto Gambling Sites',
+    category: 'Guide',
+    date: 'Feb 22, 2026',
+    readTime: '6 min read',
+    excerpt: 'Learn to identify fraudulent crypto casinos.',
+    keywords: ['scam crypto casino', 'fake gambling site'],
+    content: `
+Protect yourself from scam sites.
+
+## Red Flags
+- No license displayed
+- Unrealistic bonuses
+- Delayed withdrawals
+- No provably fair
+- Poor customer support
+
+## Safe Verification
+- Check reviews
+- Verify license
+- Test withdrawals first
+- Use trusted lists
+    `
+  },
+  'anonymous-crypto-casinos': {
+    title: 'Top Anonymous Crypto Casinos',
+    category: 'Reviews',
+    date: 'Feb 23, 2026',
+    readTime: '7 min read',
+    excerpt: 'Best no-KYC crypto gambling platforms.',
+    keywords: ['anonymous casino', 'no KYC crypto casino'],
+    content: `
+Play without identity verification.
+
+## Benefits of Anonymity
+- No ID required
+- Privacy protected
+- Fast sign-up
+- No credit checks
+
+## Top Anonymous Sites
+1. TrustDice
+2. Bitcasino (select crypto)
+3. 1xBit
+    `
+  },
+  'crypto-gambling-tax-guide': {
+    title: 'Crypto Gambling Tax Guide',
+    category: 'Guide',
+    date: 'Feb 23, 2026',
+    readTime: '8 min read',
+    excerpt: 'Understanding taxes on crypto gambling winnings.',
+    keywords: ['crypto gambling taxes', 'crypto gambling legal'],
+    content: `
+Know your tax obligations.
+
+## General Rules
+- Gambling wins are taxable income
+- Losses are deductible
+- Keep records of all transactions
+
+## Tips
+- Track all wins and losses
+- Consult a tax professional
+- Use crypto tax software
+- Report accurately
+    `
   }
 };
 

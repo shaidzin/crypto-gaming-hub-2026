@@ -179,5 +179,32 @@ export const articles = [
     date: 'Feb 22, 2026',
     readTime: '7 min read',
     slug: 'crypto-gambling-bankroll'
+  },
+  {
+    id: '21',
+    title: 'How to Spot Scam Crypto Gambling Sites',
+    excerpt: 'Learn to identify fraudulent crypto casinos.',
+    category: 'Guide',
+    date: 'Feb 22, 2026',
+    readTime: '6 min read',
+    slug: 'spot-scam-crypto-sites'
+  },
+  {
+    id: '22',
+    title: 'Top Anonymous Crypto Casinos',
+    excerpt: 'Best no-KYC crypto gambling platforms.',
+    category: 'Reviews',
+    date: 'Feb 23, 2026',
+    readTime: '7 min read',
+    slug: 'anonymous-crypto-casinos'
+  },
+  {
+    id: '23',
+    title: 'Crypto Gambling Tax Guide',
+    excerpt: 'Understanding taxes on crypto gambling winnings.',
+    category: 'Guide',
+    date: 'Feb 23, 2026',
+    readTime: '8 min read',
+    slug: 'crypto-gambling-tax-guide'
   }
 ];
