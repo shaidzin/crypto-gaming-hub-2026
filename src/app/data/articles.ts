@@ -89,5 +89,50 @@ export const articles = [
     date: 'Feb 19, 2026',
     readTime: '6 min read',
     slug: 'crypto-slots-vs-regular-slots'
+  },
+  {
+    id: '11',
+    title: 'VPN for Crypto Gambling',
+    excerpt: 'How to use VPN for crypto gambling.',
+    category: 'Guide',
+    date: 'Feb 19, 2026',
+    readTime: '7 min read',
+    slug: 'vpn-crypto-gambling'
+  },
+  {
+    id: '12',
+    title: 'Best Crypto Poker Sites in 2025',
+    excerpt: 'Top crypto poker rooms.',
+    category: 'Reviews',
+    date: 'Feb 19, 2026',
+    readTime: '8 min read',
+    slug: 'best-crypto-poker-sites'
+  },
+  {
+    id: '13',
+    title: 'Mobile Crypto Gambling Apps',
+    excerpt: 'Best mobile apps for crypto gambling.',
+    category: 'Reviews',
+    date: 'Feb 20, 2026',
+    readTime: '7 min read',
+    slug: 'mobile-crypto-gambling'
+  },
+  {
+    id: '14',
+    title: 'Best Crypto Crash Games in 2025',
+    excerpt: 'Top crash games at crypto casinos.',
+    category: 'Reviews',
+    date: 'Feb 20, 2026',
+    readTime: '7 min read',
+    slug: 'crypto-crash-games'
+  },
+  {
+    id: '15',
+    title: 'How to Play Crypto Blackjack',
+    excerpt: 'Master blackjack with cryptocurrency.',
+    category: 'Guide',
+    date: 'Feb 20, 2026',
+    readTime: '8 min read',
+    slug: 'crypto-blackjack-guide'
   }
 ];
