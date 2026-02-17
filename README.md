@@ -1,43 +1,66 @@
-# AI Content Site
+# 🚀 CryptoContent Hub
 
-AI-powered content site that runs 24/7 and generates content automatically.
+AI-powered affiliate content site for crypto gaming niche.
 
-## Quick Deploy to Vercel
+## Quick Deploy
 
-1. Push to GitHub:
+### Option 1: Vercel (Recommended - Free)
 ```bash
-cd content-site
-git init
+# 1. Push to GitHub
 git add .
 git commit -m "Initial commit"
-gh repo create ai-content-site --public
-git push origin main
+git remote add origin https://github.com/YOUR_USERNAME/affiliate-content.git
+git push -u origin main
+
+# 2. Deploy
+# Go to https://vercel.com/import
+# Import your repo
+# Deploy!
 ```
 
-2. Deploy on Vercel:
-- Go to vercel.com
-- Import from GitHub
-- Deploy!
-
-## Local Development
-
+### Option 2: Local Build
 ```bash
-cd content-site
 npm install
-npm run dev
+npm run build
+npm run start
 ```
 
-## Adding Content
+## Features
 
-Edit `src/app/page.tsx` to add more articles. In production, connect a CMS or markdown files.
+- ✅ 12 SEO-optimized articles
+- ✅ Auto sitemap.xml
+- ✅ Robots.txt
+- ✅ Responsive design
+- ✅ Dark theme
+- ✅ Fast loading
+- ✅ Ready for AdSense
 
 ## Tech Stack
+
 - Next.js 14
 - React 18
 - TypeScript
 - Vercel (free hosting)
 
-## Revenue
-- AdSense display ads
+## Content Strategy
+
+Articles cover:
+- Crypto casino reviews
+- USDT betting guides
+- Strategy articles
+- Tech explanations (TRON vs ETH, provably fair)
+- Comparison pieces
+
+## Monetization
+
+- Google AdSense (display ads)
 - Affiliate links (crypto casinos, betting sites)
 - Sponsored content
+
+## Customization
+
+Edit `src/app/data/articles.ts` to add/modify articles.
+
+## License
+
+MIT
