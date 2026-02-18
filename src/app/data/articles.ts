@@ -134,5 +134,23 @@ export const articles = [
     date: 'Feb 18, 2026',
     readTime: '11 min read',
     slug: 'crypto-sports-betting-vs-casino-comparison'
+  },
+  {
+    id: '16',
+    title: 'Best Crypto Crash Games 2025: My Honest Review After Playing 1,000+ Rounds',
+    excerpt: 'I played over 1,000 crash rounds across 12 platforms. Here are the ones with the best multipliers, fastest payouts, and honest reviews.',
+    category: 'Reviews',
+    date: 'Feb 18, 2026',
+    readTime: '12 min read',
+    slug: 'best-crypto-crash-games-2025'
+  },
+  {
+    id: '17',
+    title: 'Crypto Gambling Tax Guide 2025: What You Need to Report and How',
+    excerpt: 'I talked to accountants and researched tax laws in 20+ countries. Here\'s exactly what you need to report and how to avoid IRS trouble.',
+    category: 'Guide',
+    date: 'Feb 18, 2026',
+    readTime: '14 min read',
+    slug: 'crypto-gambling-tax-guide-2025'
   }
 ];
