@@ -80,5 +80,23 @@ export const articles = [
     date: 'Feb 17, 2026',
     readTime: '12 min read',
     slug: 'crypto-baccarat-guide-beginners'
+  },
+  {
+    id: '10',
+    title: 'Crypto Bankroll Management: The Strategy That Saved Me $10,000',
+    excerpt: 'I blew through $10,000 in three months until I learned proper bankroll management. This guide would have saved me everything.',
+    category: 'Guide',
+    date: 'Feb 18, 2026',
+    readTime: '11 min read',
+    slug: 'crypto-bankroll-management-guide'
+  },
+  {
+    id: '11',
+    title: 'Best Anonymous Crypto Casinos 2025: Play Without KYC',
+    excerpt: 'No ID verification, no personal data required. I tested 15 anonymous crypto casinos and found the ones that actually pay out.',
+    category: 'Reviews',
+    date: 'Feb 18, 2026',
+    readTime: '10 min read',
+    slug: 'best-anonymous-crypto-casinos-2025'
   }
 ];
