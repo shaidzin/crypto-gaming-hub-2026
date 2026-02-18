@@ -116,5 +116,23 @@ export const articles = [
     date: 'Feb 18, 2026',
     readTime: '10 min read',
     slug: 'provably-fair-crypto-casinos-explained'
+  },
+  {
+    id: '14',
+    title: 'Best Crypto Poker Sites 2025: Tested With Real Money',
+    excerpt: 'I tested 12 crypto poker platforms with real money. Here are the ones with the best traffic, softest games, and fastest payouts.',
+    category: 'Reviews',
+    date: 'Feb 18, 2026',
+    readTime: '13 min read',
+    slug: 'best-crypto-poker-sites-2025'
+  },
+  {
+    id: '15',
+    title: 'Crypto Sports Betting vs Casino: Which Is Better in 2025',
+    excerpt: 'After a year of testing both, I compare the odds, profitability, and entertainment value. The answer might surprise you.',
+    category: 'Comparison',
+    date: 'Feb 18, 2026',
+    readTime: '11 min read',
+    slug: 'crypto-sports-betting-vs-casino-comparison'
   }
 ];
