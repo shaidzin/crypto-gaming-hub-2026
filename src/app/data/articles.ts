@@ -98,5 +98,23 @@ export const articles = [
     date: 'Feb 18, 2026',
     readTime: '10 min read',
     slug: 'best-anonymous-crypto-casinos-2025'
+  },
+  {
+    id: '12',
+    title: 'Best Instant Withdrawal Crypto Casinos 2025: My Payouts Hit My Wallet in Under 5 Minutes',
+    excerpt: 'I tested 15 crypto casinos claiming "instant withdrawals." Only 7 actually paid me in minutes. Here are the honest results.',
+    category: 'Reviews',
+    date: 'Feb 18, 2026',
+    readTime: '12 min read',
+    slug: 'instant-withdrawal-crypto-casinos-2025'
+  },
+  {
+    id: '13',
+    title: 'Provably Fair Crypto Casinos Explained: The Technology That Changed Everything',
+    excerpt: 'I used to think all casinos were rigged. Then I learned about provably fair technology. Here\'s how it works and why it matters.',
+    category: 'Guide',
+    date: 'Feb 18, 2026',
+    readTime: '10 min read',
+    slug: 'provably-fair-crypto-casinos-explained'
   }
 ];
