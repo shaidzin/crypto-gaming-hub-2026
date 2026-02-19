@@ -161,5 +161,41 @@ export const articles = [
     date: 'Feb 19, 2026',
     readTime: '12 min read',
     slug: 'best-crypto-casinos-2026'
+  },
+  {
+    id: '19',
+    title: 'Best Crypto Blackjack Sites 2025: Tested With Real Money',
+    excerpt: 'I tested 12 Bitcoin blackjack platforms with real money. Here are the ones with the best rules, fastest payouts, and honest reviews.',
+    category: 'Reviews',
+    date: 'Feb 19, 2026',
+    readTime: '13 min read',
+    slug: 'best-crypto-blackjack-sites-2025'
+  },
+  {
+    id: '20',
+    title: 'Crypto Gambling Addiction: Signs, Symptoms, and My Road to Recovery',
+    excerpt: 'I hit rock bottom before seeking help. This guide covers warning signs, recovery resources, and how to gamble responsibly.',
+    category: 'Guide',
+    date: 'Feb 19, 2026',
+    readTime: '12 min read',
+    slug: 'crypto-gambling-addiction-recovery'
+  },
+  {
+    id: '21',
+    title: 'USDT vs BTC Betting: The Complete Comparison for 2025',
+    excerpt: 'I bet with both USDT and BTC for a year. Here\'s the honest comparison of fees, speed, volatility, and which is actually better.',
+    category: 'Comparison',
+    date: 'Feb 19, 2026',
+    readTime: '11 min read',
+    slug: 'usdt-vs-btc-betting-comparison'
+  },
+  {
+    id: '22',
+    title: 'Best Crypto Betting Apps for Mobile 2025: Bet From Anywhere',
+    excerpt: 'I tested 15 crypto betting apps on my phone. Here are the ones that actually work well for mobile betting.',
+    category: 'Reviews',
+    date: 'Feb 19, 2026',
+    readTime: '11 min read',
+    slug: 'best-crypto-betting-apps-mobile-2025'
   }
 ];
