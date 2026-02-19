@@ -197,5 +197,23 @@ export const articles = [
     date: 'Feb 19, 2026',
     readTime: '11 min read',
     slug: 'best-crypto-betting-apps-mobile-2025'
+  },
+  {
+    id: '23',
+    title: 'Best Dogecoin Casinos 2025: My Honest Reviews',
+    excerpt: 'I tested 12 Dogecoin casinos with real money. Here are the ones with the best games, fastest payouts, and honest reviews.',
+    category: 'Reviews',
+    date: 'Feb 19, 2026',
+    readTime: '11 min read',
+    slug: 'best-dogecoin-casinos-2025'
+  },
+  {
+    id: '24',
+    title: 'Crypto Casino VIP Programs Explained: How to Get VIP Treatment',
+    excerpt: 'I reached VIP status on 8 different crypto casinos. Here\'s exactly how VIP programs work and how to maximize your rewards.',
+    category: 'Guide',
+    date: 'Feb 19, 2026',
+    readTime: '12 min read',
+    slug: 'crypto-casino-vip-programs-explained'
   }
 ];
