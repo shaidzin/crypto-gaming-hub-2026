@@ -215,5 +215,23 @@ export const articles = [
     date: 'Feb 19, 2026',
     readTime: '12 min read',
     slug: 'crypto-casino-vip-programs-explained'
+  },
+  {
+    id: '25',
+    title: 'Live Dealer Crypto Casinos in 2025: The Most Immersive Gambling Experience',
+    excerpt: 'I tested 15 live dealer crypto casinos. Here\'s the truth about real-time gambling, professional dealers, and which platforms deliver the authentic casino vibe.',
+    category: 'Reviews',
+    date: 'Feb 19, 2026',
+    readTime: '13 min read',
+    slug: 'live-dealer-crypto-casinos-2025'
+  },
+  {
+    id: '26',
+    title: 'How to Spot Rigged Crypto Casinos: Red Flags and Safety Guide',
+    excerpt: 'I almost got scammed twice before learning these warning signs. Here are the red flags that signal a rigged crypto casino and how to protect yourself.',
+    category: 'Guide',
+    date: 'Feb 19, 2026',
+    readTime: '12 min read',
+    slug: 'spot-rigged-crypto-casinos'
   }
 ];
