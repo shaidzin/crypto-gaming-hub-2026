@@ -7121,3 +7121,7 @@ The math doesn't lie. USDT saves me money every single day.
     `
   }
 };
+
+export function getArticleContent(slug: string) {
+  return articleContents[slug] || null;
+}
