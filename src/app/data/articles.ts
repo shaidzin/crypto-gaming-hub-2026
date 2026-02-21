@@ -251,5 +251,23 @@ export const articles = [
     date: 'Feb 20, 2026',
     readTime: '8 min read',
     slug: 'crypto-casino-payment-methods-2025'
+  },
+  {
+    id: '29',
+    title: 'Live Dealer Crypto Casinos: The Complete 2025 Guide That Changed My Gambling',
+    excerpt: 'I was skeptical about live dealer games until I tried them. Now I barely play RNG games. Here\'s why live dealer crypto casinos are the future.',
+    category: 'Guide',
+    date: 'Feb 21, 2026',
+    readTime: '12 min read',
+    slug: 'live-dealer-crypto-casinos'
+  },
+  {
+    id: '30',
+    title: 'Crypto Poker vs Regular Poker: I Played Both for 6 Months - Here\'s The Truth',
+    excerpt: 'After 6 months playing online poker both ways, I compare the differences in rake, speed, anonymity, and winning potential. One clear winner.',
+    category: 'Comparison',
+    date: 'Feb 21, 2026',
+    readTime: '13 min read',
+    slug: 'crypto-poker-vs-regular-poker'
   }
 ];
